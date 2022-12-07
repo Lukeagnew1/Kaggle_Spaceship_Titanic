@@ -2,7 +2,7 @@
 
 https://www.kaggle.com/competitions/spaceship-titanic/data
 
-This Kaggle competition is comrised of creating a binary classification model for predicting survival or non survival among passengers on the "titantic spaceship". Participants are given features and a label, the features include many different variables such as: 
+The objective of the SpaceShip Titantic competition, hosted by Kaggle, is to create a model that predicts survival or non survival among passengers on the "titantic spaceship". Participants are given features and a label, the features include many different variables such as: 
 
 PassengerId - A unique Id for each passenger. Each Id takes the form gggg_pp where gggg indicates a group the passenger is travelling with and pp is their number within the group. People in a group are often family members, but not always.
 
