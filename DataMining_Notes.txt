@@ -1,0 +1,33 @@
+- After dividing the dataframe into two seperate dataframes, survivors and non survivors, i used the pandas describe function to get summary statistics of all the numerical columns. Based on the mean values of each column, it was very clear that survivors tend to have spent more on amenities. Considering there are five features that represent five different amenities, these can and should be reduced to one fearture, unless proven otherwise
+
+- Distribution of Survivors HomePlanet: 
+
+62.9% Earth 
+19.9% Mars
+17.2% Europa
+
+-Distribution of Non Survivors HomePlanet: 
+
+-45.6% Earth 
+-32.8% Europa
+21.5% Mars 
+
+-Distribution of Survivors in CryoSleep: 
+
+86.8% False
+13.2% True
+
+-Distribution of NonSurvivors in CryoSleep: 
+
+41.9% False
+58.1% true
+
+- After looking at the sub categories in our "Cabin feature", deck/number/side of boat, there aren't any noticeable differences among the survivors and nonsurvivors. Therefore i won't be using it in our feature set 
+
+- No variance among survivors and nonsurvivors for the destination feature 
+
+- VIP didn't turn out to be a useful feature 
+
+- Passenger Id's are formatted by a four digit number, then an underscore, then either a 01-08. In looking at the different then numbers after the underscore for survivors and nonsurvivors, it seems to be a non useful feature 
+
+- In looking at the distribution of age between survivors and non survivors it doesn;t seem to be a useful feature for our model
